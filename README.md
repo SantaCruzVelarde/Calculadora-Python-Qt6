@@ -1,27 +1,47 @@
 # Calculadora Python + Qt6
 
-Calculadora básica desarrollada en Python utilizando Qt6 para crear la interfaz gráfica.
+Calculadora básica desarrollada en Python utilizando PyQt6 para crear una interfaz gráfica de escritorio.
 
-La aplicación permite introducir dos números y realizar operaciones matemáticas básicas, mostrando posteriormente el resultado.
+La aplicación permite introducir dos números y realizar operaciones matemáticas básicas mediante botones. El resultado se muestra dentro de la ventana y el usuario puede limpiar los campos para realizar una nueva operación.
 
-**Tecnologías utilizadas**
+También contempla la validación de entradas no numéricas y evita realizar divisiones entre cero.
+
+# Tecnologías utilizadas
 
 Python
 
-Qt6
+PyQt6
 
-**Funciones**
+# Funciones
 
-Suma.
+Introducir dos números.
 
-Resta.
+Sumar.
 
-Multiplicación.
+Restar.
 
-División.
+Multiplicar.
 
-Visualización del resultado.
+Dividir.
 
-**Configuración**
+Mostrar el resultado de la operación.
 
-Es necesario tener Python instalado y contar con la biblioteca de Qt6 correspondiente.
+Limpiar los campos y el resultado.
+
+Mostrar mensajes de error ante entradas no válidas o divisiones entre cero.
+
+# Configuración e instalación
+
+Instalar Python.
+
+Instalar PyQt6 desde la terminal con el comando:
+
+python -m pip install PyQt6
+
+Descargar o clonar el repositorio.
+
+Abrir una terminal en la carpeta del proyecto.
+
+Ejecutar el archivo principal:
+
+python "calculadora_223204683 2.py"
